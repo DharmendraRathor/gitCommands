@@ -4,7 +4,6 @@
 <tr>
 <td>Commands</td>
 <td>Description</td>
-<td>Usage</td>
 </tr>
 </thead>
 <tbody>
@@ -13,7 +12,6 @@
 <td>
 <p class="p1"><span class="s1">Create git repository on locale machine.</span></p>
 </td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>
@@ -22,7 +20,6 @@
 <td>
 <p class="p1"><span class="s1">View list of files modified.</span></p>
 </td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>
@@ -31,77 +28,72 @@
 <td>&nbsp;
 <p class="p1"><span class="s1">Checkout exiting git repository</span></p>
 </td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>
 <p class="p1"><span class="s1">git checkout &lt;branchName&gt;</span></p>
 </td>
 <td>Switch to existing branch</td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>
 <p class="p1">git checkout -b &lt;branchName&gt;</p>
 </td>
 <td>Create new branch and switch to that branch</td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>
 <p class="p1"><span class="s1">git add &lt;file name with path&gt;</span></p>
 </td>
 <td>Add single file to staging</td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>
 <p class="p1"><span class="s1">git add *</span></p>
 </td>
 <td>Add all file to staging</td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>
 <p class="p1"><span class="s1">git commit -m "commit message "</span></p>
 </td>
 <td>Commit files in staging // this is committed to local repository and not to remote</td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>
 <p class="p1"><span class="s1">git push</span></p>
 </td>
 <td>Publish changes to remote repository</td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>
 <p class="p1"><span class="s1">git pull</span></p>
 </td>
 <td>Pull changes from remote branch to your branch (this will fetch and merge changes)</td>
-<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p class="p1"><span class="s1">git branch&nbsp;</span></p>
+</td>
+<td>List all branches on local respository and current active branch name as highlited</td>
 </tr>
 <tr>
 <td>
 <p class="p1"><span class="s1">git log <br />git log -2</span></p>
 </td>
 <td>View commit history</td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>
 <p class="p1"><span class="s1">git merge &lt;branchTobeMerged&gt;</span></p>
 </td>
 <td>Merge branch with your local branch</td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>
 <p class="p1"><span class="s1">git diff</span></p>
 </td>
 <td>View changes done before pushing it to remote.</td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>
@@ -109,12 +101,10 @@
 <p>eg git remote show origin</p>
 </td>
 <td>View git remote url or remote branch details.&nbsp;</td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>git checkout -b &lt;branchName&gt; &lt;tagName&gt;</td>
 <td>&nbsp;Create branch from Tag in Github</td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>git cherry-pick &lt;commit-id&gt;<br />eg git cherry-pick ...31ff5e.....</td>
@@ -122,7 +112,6 @@
 <p>&nbsp;Get Cherry picking commit</p>
 <p>if you have to cherry pick commit from one branch to another in Git repository with Commit id.</p>
 </td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>git branch newBranchName &lt;commit-id&gt;&nbsp;</td>
@@ -130,14 +119,12 @@
 <p>Create new Git branch from Git commit</p>
 <p>Create new branch from git commit withouth checkingout new branch</p>
 </td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>git checkout -b newBranchName &lt;commit-id&gt;</td>
 <td>
 <p>Create new branch from git commit with checkingout new branch</p>
 </td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>&nbsp;
@@ -161,7 +148,6 @@
 <td>
 <p>Moving branches/tags from one git repository to another</p>
 </td>
-<td>&nbsp;</td>
 </tr>
 <tr>
 <td>&nbsp;
@@ -176,7 +162,6 @@
 <td>
 <p>Replace branch with master branch in git</p>
 </td>
-<td>&nbsp;</td>
 </tr>
 </tbody>
 </table>
