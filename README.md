@@ -160,7 +160,7 @@
 <p>you can also use git force push &ldquo;git push -f origin master&rdquo;. Please check branch history before running git push</p>
 </td>
 <td>
-<p>Replace branch with master branch in git</p>
+<p>Replace/override Master branch with your latest branch in git</p>
 </td>
 </tr>
 </tbody>
