@@ -163,6 +163,30 @@
 <p>Replace/override Master branch with your latest branch in git</p>
 </td>
 </tr>
+<tr>
+<td>Revert merge request&nbsp;</td>
+<td>
+<p>Find commit id of merge request , it can also be seen from UI&nbsp;</p>
+<p>or using grep and git log command eg&nbsp;</p>
+<p>git log -200 | grep -B 20 "Merge pull request #12"</p>
+<p>&nbsp;</p>
+<p>Once you have commit id , run following command&nbsp;</p>
+<p>&nbsp;</p>
+<p>git revert -m 1 &lt;commitId&gt;</p>
+<p>&nbsp;</p>
+<p>In case of conflict resolve them manually and add files using "git add "</p>
+<p>&nbsp;</p>
+<p>(fix conflicts and run "git revert --continue")</p>
+<p>&nbsp;</p>
+<p>git push</p>
+</td>
+</tr>
+<tr>
+<td>Revert direct commit with commit Id&nbsp;</td>
+<td>
+<p>git rever &lt;commitID&gt;</p>
+</td>
+</tr>
 </tbody>
 </table>
 <p><strong>&nbsp;</strong></p>
