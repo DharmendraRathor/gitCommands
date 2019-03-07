@@ -54,6 +54,12 @@
 <td>Add all file to staging</td>
 </tr>
 <tr>
+<td>  git stash list</td>
+<td>
+<p class="p1"><span class="s1">List of stash done earlier.</span></p>
+</td>
+</tr>  
+<tr>
 <td>
 <p class="p1"><span class="s1">git commit -m "commit message "</span></p>
 </td>
