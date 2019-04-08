@@ -60,6 +60,15 @@
 </td>
 </tr>  
 <tr>
+  </tr>
+<tr>
+<td>  git stash apply "stashId"  eg  git stash apply stash@{0}</td>
+<td>
+<p class="p1"><span class="s1">To apply stash .</span></p>
+</td>
+</tr>  
+<tr>
+  
 <td>
 <p class="p1"><span class="s1">git commit -m "commit message "</span></p>
 </td>
