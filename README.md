@@ -202,6 +202,19 @@
 <p>git rever &lt;commitID&gt;</p>
 </td>
 </tr>
+ <tr>
+<td>Added file by mistake using "git add fileName.txt"  and want to remove it before commiting from index &nbsp;</td>
+<td>
+<p>git reset fileName.txt  </p>
+ </td>
+</tr>
+<tr>
+<td>Revert "git add ." from index &nbsp;</td>
+<td>
+<p>git reset </p>
+ </td>
+</tr>
+
 </tbody>
 </table>
 <p><strong>&nbsp;</strong></p>
